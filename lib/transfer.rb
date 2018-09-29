@@ -35,7 +35,7 @@ class Transfer
     sender.balance = sender.balance + amount
     self.status = "reversed"
     else
-    "XX"
+    "This reverse transfer could not be completed."
   end
   end
 
